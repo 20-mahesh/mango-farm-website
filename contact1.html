@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact Mango Farm</title>
+
+  <style>
+    body {
+      font-family: Arial;
+      background-color: #e6ffe6;
+      text-align: center;
+      padding: 50px;
+    }
+
+    input, textarea {
+      width: 250px;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+    }
+  </style>
+</head>
+
+<body>
+
+<h1>Contact Us</h1>
+
+<form>
+
+<input type="text" placeholder="Your Name"><br>
+
+<input type="email" placeholder="Your Email"><br>
+
+<textarea placeholder="Message"></textarea><br>
+
+<button onclick="sendMsg()">
+Send Message
+</button>
+
+</form>
+
+<br>
+<a href="home1.html">⬅ Back to Home</a>
+
+<script>
+function sendMsg() {
+  alert("Message Sent ✅");
+}
+</script>
+
+</body>
+</html>
